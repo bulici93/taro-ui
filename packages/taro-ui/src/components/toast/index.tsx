@@ -142,7 +142,7 @@ export default class AtToast extends React.Component<
           </View>
         </View>
       </View>
-    ) : null
+    ) : <View>{null}</View>
   }
 }
 
